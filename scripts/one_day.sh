@@ -63,3 +63,24 @@ done
 # Day 1 complete 
 # First time using arrays in bash - super useful
 # Also learnt how to auto format in VSC and how to run lines in the VSC terminal
+
+#Improvments:
+
+# Could add breaks so the loop will stop at the answer:
+
+#while read; do
+#  data+=( $REPLY )
+#done < <(sort -n)
+#
+#for (( base=0; $base < ${#data[@]}; base++ )); do
+#  for (( cand=${#data[@]} - 1; ${data[$cand]} > ${data[$base]}; cand-- )); do
+#      for (( cand2=${#data[@]} - 1; $cand2 > $cand ; cand2-- )); do
+#        if (( ${data[$cand]} + ${data[$base]} + ${data[$cand2]} == 2020 )); then
+#          break 3
+#        fi
+#      done
+#  done
+#done
+#echo answer is $(( ${data[$cand]} * ${data[$base]} * ${data[$cand2]} ))
+
+#by jagipson
