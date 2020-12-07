@@ -3,8 +3,8 @@
 # Day 1
 #Find the two entries that sum to 2020; what do you get if you multiply them together?
 
-dos2unix ./input/d1-1.txt
-my_array=($(cat ./input/d1-1.txt))
+dos2unix ./input/oneday.txt
+my_array=($(cat ./input/oneday.txt))
 declare -p my_array
 
 # here is my first attempt but I realise that this only adds each number to the next and not the other combinations
